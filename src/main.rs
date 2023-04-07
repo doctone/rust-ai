@@ -5,6 +5,7 @@ fn main() {
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
     println!("Please provide an input");
+    println!("Your input will be checked against a random number");
 
     let mut guess = String::new();
 
