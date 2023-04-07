@@ -7,6 +7,7 @@ fn main() {
     println!("Please provide an input");
 
     let mut guess = String::new();
+    println!("Your input will be checked against a random number");
 
     io::stdin()
         .read_line(&mut guess)
